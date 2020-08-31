@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1598898704973" clover="3.2.0">
+  <project timestamp="1598898704973" name="All files">
+    <metrics statements="24" coveredstatements="22" conditionals="20" coveredconditionals="16" methods="4" coveredmethods="4" elements="48" coveredelements="42" complexity="0" loc="24" ncloc="24" packages="1" files="1" classes="1"/>
+    <file name="main.js" path="C:\Users\deryck\Desktop\epicodus\coin-counter\src\main.js">
+      <metrics statements="24" coveredstatements="22" conditionals="20" coveredconditionals="16" methods="4" coveredmethods="4"/>
+      <line num="5" count="10" type="stmt"/>
+      <line num="6" count="10" type="stmt"/>
+      <line num="7" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="7" type="stmt"/>
+      <line num="11" count="3" type="cond" truecount="2" falsecount="2"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="15" count="3" type="cond" truecount="2" falsecount="2"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="19" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="33" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="39" count="7" type="stmt"/>
+      <line num="44" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="47" count="2" type="stmt"/>
+      <line num="52" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="55" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>
