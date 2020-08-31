@@ -21,6 +21,41 @@ function coinCounter(money) {
 
 console.log(coinCounter(1.45));
 
+
+function addPrefix(prefix){
+  return function(name){
+    return `${prefix} ${name}`;
+  }
+}
+
+funcion animalNoises(sound) {
+  return function(animal) {
+    return `A ${animal} ${sound}`;
+  }
+}
+
+const lionSound = animalNoises("roar");
+
+lionSound("lion");
+
+function nameEnchancer(prefix) {
+  return function(suffix) {
+    return function (name) {
+      return `${prefix} ${name} ${suffix}` 
+    }
+  }
+}
+
+function addaMult(x) {
+  return function(y) {
+    return function(z) {
+      return (x + z) * y;
+    };
+  };
+}
+
+const addTwoMultiplyByThree = addaMult(2)(3);
+
 // export function quarters(money) {
 //   if(money < 0.25)
 //   {
